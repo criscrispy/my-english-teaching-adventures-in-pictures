@@ -1,0 +1,18 @@
+body{
+  background-image:url("pictures/English-lang-background.jpg");
+  background-size: cover;
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+
+#lang-sch-1 {
+  max-height: 250px;
+}
+
+#camp-4 {
+  max-height: 250px;
+}
