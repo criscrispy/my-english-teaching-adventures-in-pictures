@@ -11,12 +11,13 @@ body{
 }
 
 .img-thumbnail {
-    padding: .25rem;
-    background-color: #fff;
+    /* padding: .25rem; */
+    /* background-color: #fff; */
     border: 3px solid #dee2e6;
-    border-radius: .25rem;
-    max-width: 100%;
-    height: auto;
+    /* border-radius: .25rem; */
+    /* max-width: 100%; */
+    /* height: auto; */
+}
 
 #lang-sch-1 {
   max-height: 250px;
