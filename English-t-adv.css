@@ -3,6 +3,9 @@ body{
   background-size: cover;
 }
 
+/* .modal-open {
+  padding-right: 0rem;
+} */
 
 .container {
     padding-right: 0px;
@@ -25,4 +28,20 @@ body{
 
 #camp-4 {
   max-height: 250px;
+}
+
+
+ .caption {
+  animation-name: zoom;
+  animation-duration: 0.9s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+.modal-content {
+  background-color: unset;
+  border: unset;
 }
