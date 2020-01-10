@@ -1,47 +1,49 @@
-body{
-  background-image:url("Pictures/English-lang-background.jpg");
-  background-size: cover;
+/* for the body*/
+.bg-image {
+	background-image: url("Pictures/English-lang-background.jpg");
+	background-size: cover;
+	overflow: hidden;
 }
-
-/* .modal-open {
-  padding-right: 0rem;
-} */
+/* --- */
 
 .container {
-    padding-right: 0px;
-    padding-left: 0px;
-
+	padding-right: 0px;
+	padding-left: 0px;
+	max-width: 80%;
 }
 
 .img-thumbnail {
-    padding: 0rem;
-    /* background-color: #fff; */
-    border: 3px solid #dee2e6;
-    /* border-radius: .25rem; */
-    /* max-width: 100%; */
-    /* height: auto; */
+	padding: 0rem;
+	/* background-color: #fff; */
+	border: 3px solid #dee2e6;
+	/* border-radius: .25rem; */
+	/* max-width: 100%; */
+	/* height: auto; */
 }
 
 #lang-sch-1 {
-  max-height: 250px;
+	max-height: 250px;
 }
 
 #camp-4 {
-  max-height: 250px;
+	max-height: 250px;
 }
 
-
- .caption {
-  animation-name: zoom;
-  animation-duration: 0.9s;
+.caption {
+	animation-name: zoom;
+	animation-duration: 0.9s;
 }
 
 @keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
 }
 
 .modal-content {
-  background-color: unset;
-  border: unset;
+	background-color: unset;
+	border: unset;
 }
