@@ -1,6 +1,6 @@
 /* for the body*/
 .bg-image {
-	background-image: url("Pictures/English-lang-background.jpg");
+	background-image: url("Pictures/English-lang-background-resize.jpg");
 	background-size: cover;
 	overflow: hidden;
 }
