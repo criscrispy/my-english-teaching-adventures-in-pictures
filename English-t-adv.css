@@ -43,11 +43,25 @@
 	}
 }
 
+.images-in-gallery {
+	cursor:pointer;
+}
+
 .modal-content {
 	background-color: unset;
 	border: unset;
 }
+.modal-header {
+	border: unset;
+}
 
-.images-in-gallery {
-	cursor:pointer;
+/* Close button in modal mode */
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    line-height: 1;
+    color: #e9ecef;
+    text-shadow: 2px 2px 0 #004085;
+		opacity: 1;
 }
