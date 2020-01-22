@@ -1,6 +1,6 @@
 /* for the body*/
 .bg-image {
-	background-image: url("Pictures/English-lang-background-resize.jpg");
+	background-image: url("Pictures/English-lang-background-resize-sauna.jpg");
 	background-size: cover;
 	overflow: hidden;
 }
@@ -46,4 +46,8 @@
 .modal-content {
 	background-color: unset;
 	border: unset;
+}
+
+a {
+	cursor:pointer;
 }
