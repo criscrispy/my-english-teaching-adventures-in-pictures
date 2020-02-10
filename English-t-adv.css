@@ -6,6 +6,81 @@
 }
 /* --- */
 
+/* -------------------------------------- */
+/* CSS pre-processor spinner */
+.spinner-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #208003;
+	z-index: 999999;
+}
+
+.spinner {
+	position: absolute;
+	top: 48%;
+	left: 48%;
+}
+
+.cube1,
+.cube2 {
+	background-color: white;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	-webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
+	animation: sk-cubemove 1.8s infinite ease-in-out;
+}
+
+.cube2 {
+	-webkit-animation-delay: -0.9s;
+	animation-delay: -0.9s;
+}
+
+@-webkit-keyframes sk-cubemove {
+	25% {
+		-webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+	}
+	50% {
+		-webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+	}
+	75% {
+		-webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+	}
+	100% {
+		-webkit-transform: rotate(-360deg);
+	}
+}
+
+@keyframes sk-cubemove {
+	25% {
+		transform: translateX(42px) rotate(-90deg) scale(0.5);
+		-webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+	}
+	50% {
+		transform: translateX(42px) translateY(42px) rotate(-179deg);
+		-webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
+	}
+	50.1% {
+		transform: translateX(42px) translateY(42px) rotate(-180deg);
+		-webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+	}
+	75% {
+		transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+		-webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+	}
+	100% {
+		transform: rotate(-360deg);
+		-webkit-transform: rotate(-360deg);
+	}
+}
+/* -------------------------------------- */
+
 .container {
 	padding-right: 0px;
 	padding-left: 0px;
@@ -44,7 +119,7 @@
 }
 
 .images-in-gallery {
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .modal-content {
@@ -57,11 +132,11 @@
 
 /* Close button in modal mode */
 .close {
-    float: right;
-    font-size: 1.5rem;
-    font-weight: 1000;
-    line-height: 1;
-    color: #e9ecef;
-    text-shadow: 2px 2px 0 #004085;
-		opacity: 1;
+	float: right;
+	font-size: 1.5rem;
+	font-weight: 1000;
+	line-height: 1;
+	color: #e9ecef;
+	text-shadow: 2px 2px 0 #004085;
+	opacity: 1;
 }
