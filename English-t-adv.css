@@ -120,7 +120,24 @@
 
 .images-in-gallery {
 	cursor: pointer;
+	-webkit-transition: transform .4s, filter 1s ease-in-out;
+	transition: transform .4s, filter 1s ease-in-out;
+	filter: grayscale(0);
+	/* transition: opacity 800ms ease; */
 }
+
+.images-in-gallery:hover {
+	filter: grayscale(90%);
+}
+
+/* .img-colorize {
+	transition: transform .5s, filter 1.5s ease-in-out;
+	filter: grayscale(90%);
+}
+.img-colorize:hover {
+	filter: grayscale(0);
+	transform: scale(1.02);
+} */
 
 .modal-content {
 	background-color: unset;
