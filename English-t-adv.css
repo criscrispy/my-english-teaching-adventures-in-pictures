@@ -157,3 +157,9 @@
 	text-shadow: 2px 2px 0 #004085;
 	opacity: 1;
 }
+
+.close:hover {
+	color: red;
+	text-shadow: 1px 1px 0 #004085;
+	outline: none;
+}
