@@ -1,3 +1,4 @@
+// Loading animation before content loads
 jQuery(document).ready(function () {
     //Preloader
     preloaderFadeOutTime = 2000;
